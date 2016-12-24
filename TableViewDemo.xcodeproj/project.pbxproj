@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4EA78DF31E0D47C00066BE83 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA78DF21E0D47C00066BE83 /* Pokemon.swift */; };
 		4EB116FE1E0A91FD007858A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB116FD1E0A91FD007858A4 /* AppDelegate.swift */; };
 		4EB117001E0A91FD007858A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB116FF1E0A91FD007858A4 /* ViewController.swift */; };
 		4EB117031E0A91FD007858A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EB117011E0A91FD007858A4 /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4EA78DF21E0D47C00066BE83 /* Pokemon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
 		4EB116FA1E0A91FD007858A4 /* TableViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EB116FD1E0A91FD007858A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4EB116FF1E0A91FD007858A4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				4EB117091E0A91FD007858A4 /* Info.plist */,
 				4EB1170F1E0A9CBE007858A4 /* ManHinh2VC.swift */,
 				4EB117111E0AA860007858A4 /* TableViewCell.swift */,
+				4EA78DF21E0D47C00066BE83 /* Pokemon.swift */,
 			);
 			path = TableViewDemo;
 			sourceTree = "<group>";
@@ -143,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EA78DF31E0D47C00066BE83 /* Pokemon.swift in Sources */,
 				4EB117101E0A9CBE007858A4 /* ManHinh2VC.swift in Sources */,
 				4EB117121E0AA860007858A4 /* TableViewCell.swift in Sources */,
 				4EB117001E0A91FD007858A4 /* ViewController.swift in Sources */,
@@ -308,6 +312,7 @@
 				4EB1170E1E0A91FD007858A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

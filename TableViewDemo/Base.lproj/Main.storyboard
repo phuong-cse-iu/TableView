@@ -30,7 +30,7 @@
                                         <rect key="frame" x="0.0" y="56" width="375" height="171"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="hTq-6Z-oXa" id="Cj4-wF-Qn8">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="170"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="171"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="wph-Ju-wtD">
@@ -72,6 +72,17 @@
                     </view>
                     <navigationItem key="navigationItem" title="Main" id="ju2-SI-mr8">
                         <barButtonItem key="backBarButtonItem" title="Main" id="sCq-Uh-JvT"/>
+                        <barButtonItem key="rightBarButtonItem" style="done" id="NpA-dm-pHx">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="tog-Oo-yx5">
+                                <rect key="frame" x="276" y="7" width="83" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
+                                <state key="normal" title="Edit"/>
+                                <connections>
+                                    <action selector="editBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oZ4-9i-RXB"/>
+                                </connections>
+                            </button>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="tableView" destination="E0A-Tw-xZ0" id="GaK-7C-lMV"/>
@@ -79,7 +90,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-756" y="-95"/>
+            <point key="canvasLocation" x="-1017" y="-115"/>
         </scene>
         <!--Man Hinh2VC-->
         <scene sceneID="hWl-Zb-RdE">
@@ -144,7 +155,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BCW-NR-Tcc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1599.2" y="-22.03898050974513"/>
+            <point key="canvasLocation" x="-1671" y="-41"/>
         </scene>
     </scenes>
 </document>
